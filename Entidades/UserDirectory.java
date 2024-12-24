@@ -19,7 +19,6 @@ public class UserDirectory<U> {
     }
     
     public void deleteUser(SocketChannel s) {
-        // El receptor aun no implementa esta funcionalidad
-        //listado.remove(user);
+        listado.remove(user);
     }
 }
